@@ -2,8 +2,6 @@
 
 #this script was written based off information from this github issue: https://github.com/LukeSmithxyz/emailwiz/issues/124
 
-#I plan on further expanding the functionality to include adding new domains to the appropriate postfix and opendkim configuration files and finally incorporate everything into the main emailwiz script
-
 address="$1"
 
 #retrieve the system mail name used during the inital postfix setup
